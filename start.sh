@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+#Running bundle
+cd /app/lamernews && bundle install
+
 #installing gems
 gem install bundler
 gem install sinatra -v 1.4.2
